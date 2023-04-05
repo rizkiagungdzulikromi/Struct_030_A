@@ -17,7 +17,7 @@ struct Mahasiswa
 int main()
 {
 	Mahasiswa mhs[3];
-
+	 
 	for (int i = 0; i < 3; i++) {
 		cout << "Masukkan NIM = ";
 		cin.getline(mhs[i].NIM, 12);
